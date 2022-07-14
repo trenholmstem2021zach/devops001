@@ -22,9 +22,13 @@ const sheet = doc.sheetsByIndex[0]; // or use doc.sheetsById[id] or doc.sheetsBy
 console.log(sheet.title);
 console.log(sheet.rowCount);
 
+let rows = await sheet.getRows();
+rows = await sheet.getRows();
+console.log(rows[1].b1)
+
 // adding / removing sheets
-const newSheet = await doc.addSheet({ title: 'hot new sheet!' });
-await newSheet.delete();
+//const newSheet = await doc.addSheet({ title: 'works1' });
+//await newSheet.delete();
 
 }
 
