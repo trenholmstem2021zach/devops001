@@ -1,0 +1,14 @@
+{
+  "name": "googleservices",
+  "version": "1.0.0",
+  "description": "Demo gsheet",
+  "main": "gdemo.js",
+  "scripts": {
+    "test": "ls"
+  },
+  "author": "Zach Lewis",
+  "license": "MIT",
+  "dependencies": {
+    "google-spreadsheet": "^3.3.0"
+  }
+}
